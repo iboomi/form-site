@@ -67,11 +67,33 @@ ul{
 }
 #our_company{
   width: 100%;
-  height: 70vh;
+  height: 100%;
   background-image: url(back-yellow.svg);
   background-size: cover;
   margin-top: 20px;
 }
 #h_company{
-
+  text-align: center;
+  font-size: 22px;
+  padding-top: 20vh;
+}
+#inf_blocks{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 30vh);
+  grid-column-gap: 50px;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  margin-top: 10vh;
+}
+#inf_bl{
+  text-align: center;
+  font-size: 15px;
+}
+#inf_bl>img{
+  width: 50px;
+}
+#inf_bl>p{
+  margin-top: 10px;
 }
