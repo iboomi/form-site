@@ -14,42 +14,33 @@ p{
   margin: 0;
   padding: 0;
 }
-nav{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 ul{
   width: 50%;
   display: flex;
   justify-content:space-between;
   list-style: none;
-  margin-top: 5vh;
+  margin-top: 3vh;
   margin-bottom: 2vh;
   font-size: 15px;
 }
 #logo{
   height: 50px;
   width: 50px;
-  background-color: grey;
 }
 #join_us{
   width: 100%;
-  height: 75vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
-  padding-bottom: 10px;
 }
 #join{
-  background-image: url(back.jpg);
-  background-size: cover;
   width: 90%;
   text-align: center;
 }
 #t_join{
   margin-top: 29vh;
   color: white;
-  font-size: 33px;
+  font-size: 36px;
 }
 #t_sjoin{
   margin-top: 4vh;
@@ -65,16 +56,19 @@ ul{
 #oil{
   width: 47px;
 }
+
+      /* Company*/
+
 #our_company{
   width: 100%;
   height: 100%;
-  background-image: url(back-yellow.svg);
+  background-image: url(back-yellow1.png);
   background-size: cover;
-  margin-top: 20px;
+  margin-top: -8%;
 }
-#h_company{
+#header{
   text-align: center;
-  font-size: 22px;
+  font-size: 26px;
   padding-top: 20vh;
 }
 #inf_blocks{
@@ -87,13 +81,166 @@ ul{
   margin: auto;
   margin-top: 10vh;
 }
-#inf_bl{
+.inf_bl{
   text-align: center;
   font-size: 15px;
 }
-#inf_bl>img{
+.inf_bl>img{
   width: 50px;
 }
-#inf_bl>p{
+.inf_bl>p{
   margin-top: 10px;
+}
+
+      /* Products*/
+
+#our_products{
+  width: 100%;
+  height: 90vh;
+  background-color: #fde34d;
+}
+#header_2{
+  text-align: center;
+  font-size: 26px;
+  padding-top: 8vh;
+}
+#products{
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(3,25%);
+  grid-column-gap: 3%;
+  padding-top: 14vh;
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+}
+.pr{
+    justify-content: center;
+    display: flex;
+}
+#pr1{
+  background-color: #625910;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  border-radius: 45px;
+  text-align: center;
+  color: white;
+  max-width: 300px;
+  justify-self: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 15px;
+}
+#pr2{
+  background-color: #625910;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  border-radius: 45px;
+  text-align: center;
+  color: white;
+  max-width: 300px;
+  justify-self: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 15px;
+}
+#pr3{
+  background-color: #625910;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  border-radius: 45px;
+  text-align: center;
+  color: white;
+  max-width: 300px;
+  justify-self: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 15px;
+}
+.p_text{
+  width: 85%;
+  margin-top: 17vh;
+  line-height: 23px;
+  font-size: 15px
+}
+.products{
+  width: 17%;
+  max-width: 165px;
+  position: absolute;
+  margin-top: -4%;
+}
+
+      /* Opportunities */
+
+#opportunities{
+  width: 100%;
+  height: 105vh;
+  background-image: url(backopp.png);
+  background-size: cover;
+}
+#header_3{
+  text-align: center;
+  font-size: 26px;
+  padding-top: 16vh;
+}
+#opport{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 135px 13% 135px 13% 135px;
+  grid-template-rows: repeat(2, 135px);
+  justify-content: center;
+  margin-top: 10vh;
+  grid-row-gap: 20vh;
+}
+.opp{
+  display: flex;
+  justify-content: center;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #625918;
+}
+.opp>img{
+  width: 65%;
+}
+.t_opp{
+  margin-top: 170px;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+}
+.lines{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line{
+  background-color:  #a6a6a6;
+  width: 17%;
+  height: 2px;
+  margin: 7%;
+}
+
+      /* Contact us */
+
+#contact_us{
+  width: 100%;
+  height: 69vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#header_4{
+  text-align: center;
+  font-size: 26px;
+  padding-top: 16vh;
+}
+#form{
+  width: 55%;
+  height: 100%;
 }
