@@ -33,7 +33,7 @@
         adipiscing elit, sed do<br> eiusmod tempor incididunt ut
         labore et dolore magna aliqua. Ut<br> enim ad minim veniam, qui.</p>
         <div id="button">
-        <a href="#"><img src="icon.svg" alt="" id="oil"></a>
+        <a href="#header"><img src="icon.svg" alt="" id="oil" class="nav-item"></a>
         </div>
     </div>
   </div>
@@ -121,23 +121,25 @@
     </div>
   </div>
   <div id="contact_us">
-    <p id="header_4">Зв'язатися з нами</p>
+    <!--<div class="">
+      <img src="icon2.svg" alt="" class="oils_back">
+    </div>-->
     <div id="form">
       <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
-      <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+        <p id="header_4">Напишіть нам!</p>
+        <div class="form-group">
+          <label>Ваше ім'я</label>
+          <input type="text" name="name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Введіть email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Ваше повідомлення</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Відправити</button>
       </form>
     </div>
   </div>
@@ -151,5 +153,8 @@
     crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="parallax.js"></script>
+    <script src="scroll.js">
+
+    </script>
 </body>
 </html>
